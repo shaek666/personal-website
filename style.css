@@ -1,0 +1,22 @@
+body {
+    font-family: 'Labrada', serif;
+}
+
+.intro{
+    padding-top: 100px;;
+}
+
+.half-width{
+    float: left;
+    width: 50%;
+}
+
+.name{
+    font-weight: bold;
+    color: midnightblue;
+}
+
+.half-width img{
+    width: 50%;
+    margin-right: 500px;
+}
