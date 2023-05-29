@@ -2,21 +2,138 @@ body {
     font-family: 'Labrada', serif;
 }
 
+h1{
+    font-size: 50px;
+}
+
+h3{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+p{
+    color: dimgray;
+    margin-bottom: 50px;
+}
+
+h4{
+    margin-bottom: -10px;
+}
+
 .intro{
-    padding-top: 100px;;
+    background-image: url(personal-website/header-bg.png);
+    background-repeat: no-repeat;
 }
 
 .half-width{
     float: left;
-    width: 50%;
+    position: relative;
+    width: 40%;
+    margin-left: 5%;
+    padding-top: 8%;
+    padding-right: 5%;
 }
 
 .name{
-    font-weight: bold;
+    font-weight: bolder;
     color: midnightblue;
 }
 
 .half-width img{
-    width: 50%;
-    margin-right: 500px;
+    width: 75%;
+    position: absolute;
+    top: 10px;
+}
+
+section{
+    height: 500px;
+    padding-bottom: 600px;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, pink, red);
+    font-weight: bolder;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.bio{
+    background-image: url(personal-website/biography-bg.png);
+    background-repeat: no-repeat;
+}
+
+.work{
+    text-align: center;
+    background-image: url(personal-website/latest-work-bg.png);
+    background-repeat: no-repeat;
+}
+
+.one-width{
+    margin-left: 1%;
+}
+
+
+.one-width img{
+    float: left;
+    width: 32%;
+    display: inline;
+    padding: 10px;
+}
+
+.client{
+    text-align: center;
+    background-image: url(personal-website/footer-bg.png);
+    background-repeat: no-repeat;
+}
+
+#highlight{
+    font-weight: bolder;
+    color: fuchsia;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.link-buttonis{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, pink, red);
+    font-weight: bolder;
+    color: white;
+    border-radius: 7px;
+    margin-left: 600px;
+    margin-right: 600px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    cursor: pointer;
+}
+
+#wp{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, pink, red);
+    font-weight: bolder;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#mail{
+    font-size: larger;
+    align-items: center;
+}
+
+.ceo{
+    padding-top: 200px;
+}
+
+#what{
+    margin-top: 300px;
+    padding-top: 1000px;
+}
+
+footer{
+    text-align: center;
 }
